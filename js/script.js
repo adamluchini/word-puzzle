@@ -25,7 +25,13 @@ var wordPuzzle = function(inputString) {
 }
 $(document).ready(function() {
   // event handler for form
-  $("#puzzlesForm").submit(function() {
-    alert("button works");
+  $("#puzzlesForm").submit(function(event) {
+
+    // alert(     wordPuzzle($("#response").val())   );
+
+    // wordPuzzle($("#response").val())
+    $("#target").text(wordPuzzle($("#response").val()));
+
+    event.preventDefault();
   });
 });

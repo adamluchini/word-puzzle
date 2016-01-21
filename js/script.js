@@ -14,6 +14,7 @@
 //   // function to return a string, inputString
 //   return inputString;
 // }
+
 var wordPuzzle = function(inputString) {
   for(var i=0; i < inputString.length; i++) {
     if(/[aeiou]/i.test(inputString[i])) {
@@ -22,3 +23,9 @@ var wordPuzzle = function(inputString) {
   }
   return inputString;
 }
+$(document).ready(function() {
+  // event handler for form
+  $("#puzzlesForm").submit(function() {
+    alert("button works");
+  });
+});

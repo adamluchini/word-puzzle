@@ -1,9 +1,11 @@
 // create a function
 var wordPuzzle = function(inputString) {
   for(var i=0; i < inputString.length; i++) {
-    if(inputString[i]==="a") {
+    // if(inputString[i]==="a") {
+    //   inputString = inputString.slice(0, i) + "-" + inputString.slice(i+1);
+    // }
+    if(/[aeiou]/.test(inputString[i])) {
       inputString = inputString.slice(0, i) + "-" + inputString.slice(i+1);
-
     }
 
   }

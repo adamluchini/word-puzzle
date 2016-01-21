@@ -1,37 +1,31 @@
-# _{Application Name}_
+# _Word Puzzle_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Word puzzle changes a string into an encrypted puzzle for another person to guess, 1.21.2016_
 
-#### By _**{List of contributors}**_
+#### By _**Joseph Karasek and Steve Kinney**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This site will take an input string, and encrypt it by replacing the vowels with special characters. The result is then displayed (with the original string hidden) so a different user may guess what the original string was._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone this repo._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Feel free to contact the authors of this project through GitHub._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_jQuery, Bootstrap, javascript with Mocha and Chai._
 
 ### License
 
 MIT License.
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Joseph Karasek and Steve Kinney_**

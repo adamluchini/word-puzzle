@@ -11,4 +11,7 @@ describe("wordPuzzle", function() {
   it("relpace all vowels with a -", function() {
     expect(wordPuzzle("the cat is furry, meow")).to.equal("th- c-t -s f-rry, m--w");
   });
+  it("relpace all vowels with a -", function() {
+    expect(wordPuzzle("the cAt is furry, meow")).to.equal("th- c-t -s f-rry, m--w");
+  });
 });

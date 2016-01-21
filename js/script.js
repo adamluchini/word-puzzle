@@ -1,7 +1,11 @@
 // create a function
 var wordPuzzle = function(inputString) {
-  if(inputString[0]==="a") {
-    inputString = "-";
+  for(var i=0; i < inputString.length; i++) {
+    if(inputString[i]==="a") {
+      inputString = inputString.slice(0, i) + "-" + inputString.slice(i+1);
+
+    }
+
   }
   // it will check if caracter is a vowel
   // change vowels to -
